@@ -1,6 +1,12 @@
 # Programming without the Programming
 
-Ashley M. Clark
+Ashley M. Clark \
+Digital Scholarship Group \
+Northeastern University \
+DH Open Office Hours \
+2019-02-20
+
+***************
 
 
 Hello! My name is Ashley and I like to anthropomorphize computer programs. The Women Writers 
@@ -12,7 +18,7 @@ program runs into something unexpected, or you haven't thought out the implicati
 instructions... Well, the robot will still try to do what you’ve told it to do, but you might not 
 like the results.
 
-    https://tinyurl.com/codingWithoutTheCoding2019
+> https://tinyurl.com/codingWithoutTheCoding2019
 
 Before we get into things, here’s a short link to a Google Drive folder with my slides, and an 
 annotated copy of the script I’m using. The script document is editable by anyone with the link. If 
@@ -63,7 +69,7 @@ Which brings us to our next program. Can I have a volunteer to play robot?
 
 Does anyone have any questions or comments about this program?
 
-[ discuss ]
+_[ discuss ]_
 
 That’s how we can read pseudocode with our programmer hats on. In its simplest form, pseudocode is 
 just series of instructions, or actions that should occur one right after another. Writing one of 
@@ -71,13 +77,13 @@ these programs is like giving directions, or writing out a recipe.
 
 Let’s brainstorm some routines we could use for example programs.
 
-[ write these on whiteboard, discuss ]
+_[ write these on whiteboard, discuss ]_
 
 Okay, something else I’d like to point out: As we’re doing these, we’re taking on three roles. We 
 are playing the robots, and writing the programs, but we’re also serving as the data. _Because_ we 
 are human, we might be considered data, but we’re _complex structures_ of data. We can even 
 retrieve or communicate some of it! For example, I as a person know what I prefer to be called. 
-[ hold up name card ]
+_[ hold up name card ]_
 
 When we put on our robot hats, we have our own human data at our fingertips. We can find out the 
 names of the people we’re sitting next to, and we can incorporate that data into our programs. 
@@ -110,7 +116,7 @@ to understand how the result might change if the value of _l_ or _w_ were to cha
 
 Does anyone have any questions?
 
-[ optional: walk through example from previous suggestions ]
+_[ optional: walk through example from previous suggestions ]_
 
 Up until this point, we’ve been using data that’s been “hard-coded” into the program. Because the 
 input data is the same every time, the _results_ will be the same every time, no matter who runs 
@@ -121,7 +127,7 @@ some unknown value.
 
 Anyone want to play robot?
 
-[ hand program to volunteer, flip slide ]
+_[ hand program to volunteer, flip slide ]_
 
     FIND $neighborOnRight
     GET $name of $neighborOnRight
@@ -147,14 +153,14 @@ What do you think would happen if someone ran this program and there wasn’t an
 Here’s an alternative program. Let’s go line by line. First, I have a test to determine whether or 
 not there is someone on my right. That is true for me, so I proceed to identify my neighbor and 
 greet them. The other condition, marked by the ELSE, does not apply to me, so now I’m done. What 
-happens if there _isn’t_ someone on my right? [ ... ]
+happens if there _isn’t_ someone on my right? _[ ... ]_
 
 In programming, this construct, or pattern of code is usually called an “if statement”, or a 
 “conditional”. It’s like drawing out branches in a flowchart: the robot will follow the first path 
 that applies. Among other things, the IF statement can let you perform tests on the input data 
 _before_ it’s used, letting your robot recover from unforeseen use cases, or just plain bad data.
 
-[ optional: use a suggestion from earlier ]
+_[ optional: use a suggestion from earlier ]_
 
 You might have noticed that there’s some repetition in this slide, what with the “Hello, $name!”. 
 It’s not a big deal because the program is so short. However, the longer the program, the more 
@@ -188,7 +194,7 @@ expressing the greeting. Saves us a lot of writing!
     SET $name TO "Ashley"
     PerformGreeting
 
-Anyone want to try running this? [ … ]
+Anyone want to try running this? _[ ... ]_
 
 Note that the routine assumes that the value of the variable $name has been set beforehand. 
 However, we can build in our IF statement test from earlier. This way, we don’t have to check $name 
@@ -209,9 +215,7 @@ $name. But instead of continuing straight to the greeting, there’s a test. Whe
 $name has not been set, PerformGreeting will set the variable itself, using the text string "world" 
 as its default.
 
-Does anyone have any questions?
-
-[ … ]
+Does anyone have any questions? _[ ... ]_
 
     FIND group of $fellowParticipants
     FOR each $person IN $fellowParticipants
@@ -227,7 +231,8 @@ $fellowParticipants, I will stop.
 
 Anyone want to try running this? We can use a smaller group for $fellowParticipants.
 
-[ if not, I’ll do it ]
+_[ if not, I’ll do it ]_
+
 
 ## Where to go from here
 
@@ -250,6 +255,7 @@ be perfect on the first try. If something doesn’t work, rewrite it later.
 This workshop is a pretty unconventional way of introducing the topic of programming. If you’re 
 looking for a more traditional experience, I have a list of websites and books I consulted when 
 writing this script. You’ll find it in the Drive folder.
+
 
 ## Questions? <br />Examples!
 
