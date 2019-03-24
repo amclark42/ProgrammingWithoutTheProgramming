@@ -14,7 +14,7 @@ Project staff calls them “robots,” like they’re tiny metal beings that int
 It’s an apt metaphor, because when you write programs or scripts, your “robots” will generally do 
 exactly what you tell them to do, and no more. If all goes well, they accomplish your task without 
 complaining. But you have to be careful telling your robot what to do. If you’re too vague, or the 
-program runs into something unexpected, or you haven't thought out the implications of your 
+program runs into something unexpected, or you haven’t thought out the implications of your 
 instructions... Well, the robot will still try to do what you’ve told it to do, but you might not 
 like the results.
 
