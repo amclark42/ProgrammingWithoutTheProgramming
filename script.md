@@ -97,6 +97,8 @@ If this concept seems familiar, it probably is. In mathematics, variables are us
 data so that you can solve for _y_, or figure out the length of a triangle’s third side, or 
 determine the radius of a circle.
 
+| Math            | Pseudocode                    |
+| ---             | ---                           |
 | _l_ = 10        | `SET $length TO 10`           |
 | _w_ = 35        | `SET $width TO 35`            |
 | _A_ = _l_ * _w_ | `CALCULATE $length * $width`  |
